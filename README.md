@@ -3,7 +3,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of domainator is to ...
+domainator wraps various APIs to classify domains. This includes
+
+- [webshrinker](https://webshrinker.com)
 
 ## Installation
 
@@ -22,11 +24,4 @@ Get API Key and Secret from [here](https://app.webshrinker.com/api-access-keys.)
 Add SHRINKER_TOKEN="your-access-key:your-secret-key" to `.Renviron`
 
 ## Example
-
-
-
-``` r
-library(domainator)
-## basic example code
-```
 
