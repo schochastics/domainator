@@ -10,12 +10,20 @@ The goal of domainator is to ...
 You can install the development version of domainator like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+#install.packages("remotes")
+remotes::install_github("schochastics/domainator")
 ```
+
+## Authentication
+In all cases, you need to add API keys/secrets/tokens to the `.Renviron`` file (for example using `usethis::edit_r_environ()`)
+
+### Web Shrinker
+Get API Key and Secret from [here](https://app.webshrinker.com/api-access-keys.)
+Add SHRINKER_TOKEN="your-access-key:your-secret-key" to `.Renviron`
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+
 
 ``` r
 library(domainator)

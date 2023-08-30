@@ -1,13 +1,17 @@
 Package: domainator
-Title: What the Package Does (One Line, Title Case)
+Title: Classify Domains using Webservices
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("David", "Schoch", , "david@schochastics.net", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-2952-4812"))
+Description: Wraps various APIs to classify domains. This includes...
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 URL: https://github.com/schochastics/domainator
 BugReports: https://github.com/schochastics/domainator/issues
+Imports: 
+    base64enc,
+    httr2,
+    rlang
