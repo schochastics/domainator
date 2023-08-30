@@ -21,10 +21,12 @@ remotes::install_github("schochastics/domainator")
 In all cases, you need to add API keys/secrets/tokens to the `.Renviron` file (for example using `usethis::edit_r_environ()`)
 
 ### Web Shrinker
-Get API Key and Secret from [here](https://app.webshrinker.com/api-access-keys)
+Get API Key and Secret from [here](https://app.webshrinker.com/api-access-keys).
 Add SHRINKER_TOKEN="your-access-key:your-secret-key" to `.Renviron`
 
 ### Klazify
+Get API Bearer token from [here](https://www.klazify.com/category).
+Add KLAZIFY_TOKEN="your-token" to `.Renviron`
 
 ## Example
 
