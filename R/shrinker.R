@@ -12,7 +12,7 @@
     resp
 }
 #' List All Web Shrinker Categories
-#' @description Returns all of the possible categories that URLs, hostnames, and IP addresses can be associated with.
+#' @description Returns all of the possible categories from webshrinker.com that URLs, hostnames, and IP addresses can be associated with.
 #' @param taxonomy character. Which category taxonomy to use, either "iabv1" or "webshrinker"
 #' @return list of categories
 #' @examples
@@ -28,9 +28,9 @@ get_categories_shrinker <- function(taxonomy = "iabv1") {
 }
 
 #' Webshrinker Category Lookup
-#' @description  returns the categories associated with the given URL, hostname, or IP address.
+#' @description  uses webshrinker.com to get the categories associated with the given URL, hostname, or IP address
 #' @inheritParams get_categories_shrinker
-#' @param url character. URL to be categorized
+#' @param url character. URL to be categorized (does not need https://www.)
 #' @return data.frame with the inferred category and confidents score
 #' @examples
 #' \dontrun{

@@ -6,6 +6,7 @@
 domainator wraps various APIs to classify domains. This includes
 
 - [webshrinker](https://webshrinker.com)
+- [klazify](https://www.klazify.com/)
 
 ## Installation
 
@@ -20,8 +21,10 @@ remotes::install_github("schochastics/domainator")
 In all cases, you need to add API keys/secrets/tokens to the `.Renviron` file (for example using `usethis::edit_r_environ()`)
 
 ### Web Shrinker
-Get API Key and Secret from [here](https://app.webshrinker.com/api-access-keys.)
+Get API Key and Secret from [here](https://app.webshrinker.com/api-access-keys)
 Add SHRINKER_TOKEN="your-access-key:your-secret-key" to `.Renviron`
+
+### Klazify
 
 ## Example
 

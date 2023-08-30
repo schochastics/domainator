@@ -7,7 +7,7 @@
 get_url_category_shrinker(url, taxonomy = "iabv1")
 }
 \arguments{
-\item{url}{character. URL to be categorized}
+\item{url}{character. URL to be categorized (does not need https://www.)}
 
 \item{taxonomy}{character. Which category taxonomy to use, either "iabv1" or "webshrinker"}
 }
@@ -15,7 +15,7 @@ get_url_category_shrinker(url, taxonomy = "iabv1")
 data.frame with the inferred category and confidents score
 }
 \description{
-returns the categories associated with the given URL, hostname, or IP address.
+uses webshrinker.com to get the categories associated with the given URL, hostname, or IP address
 }
 \examples{
 \dontrun{

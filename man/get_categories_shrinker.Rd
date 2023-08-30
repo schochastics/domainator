@@ -13,7 +13,7 @@ get_categories_shrinker(taxonomy = "iabv1")
 list of categories
 }
 \description{
-Returns all of the possible categories that URLs, hostnames, and IP addresses can be associated with.
+Returns all of the possible categories from webshrinker.com that URLs, hostnames, and IP addresses can be associated with.
 }
 \examples{
 \dontrun{
