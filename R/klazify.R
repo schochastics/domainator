@@ -13,7 +13,7 @@
 }
 
 #' Klazify Category Lookup
-#' @description  uses klazify.com to get the categories associated with the given URL, hostname, or IP address.
+#' @description  uses klazify.com to get the categories associated with the given URL.
 #' @param url character. URL to be categorized (needs https://www.)
 #' @param raw boolean. If TRUE returns the raw API response which contains more
 #' information than only the categories.

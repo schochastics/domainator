@@ -1,7 +1,8 @@
 get_token <- function(service = "shrinker") {
     switch(service,
         shrinker = .key_to_base64(),
-        klazify = Sys.getenv("KLAZIFY_TOKEN")
+        klazify = Sys.getenv("KLAZIFY_TOKEN"),
+        whoisxml = Sys.getenv("WHOISXML_TOKEN")
     )
 }
 
