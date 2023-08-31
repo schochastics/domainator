@@ -26,7 +26,7 @@ get_url_category_whoisxml <- function(url) {
     resp <- .make_request_whoisxml(path = "api/v2", params)
     dat <- httr2::resp_body_json(resp)
 
-    cat <- as.data.frame(do.call("rbind", dat))
+    cat <- as.data.frame(do.call("rbind", dat$categories))
     cat[["url"]] <- url
     res <- cat[, c(4, 3, 1)]
     res$confident <- TRUE
@@ -34,5 +34,4 @@ get_url_category_whoisxml <- function(url) {
     res$name <- cat$IAB17
     names(res)[2:3] <- c("label", "score")
     res
-    }
 }
