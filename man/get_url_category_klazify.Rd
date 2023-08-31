@@ -16,7 +16,7 @@ information than only the categories.}
 data.frame with the inferred category and confidents score
 }
 \description{
-uses klazify.com to get the categories associated with the given URL, hostname, or IP address.
+uses klazify.com to get the categories associated with the given URL.
 }
 \examples{
 \dontrun{

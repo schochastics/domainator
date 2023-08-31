@@ -1,3 +1,6 @@
-# domainator (development version)
+# domainator 0.0.0.9000
 
-* Initial CRAN submission.
+* added support for webshrinker
+* added support for klazify
+* added support for whoisxmlapi
+

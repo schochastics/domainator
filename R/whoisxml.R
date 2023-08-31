@@ -25,13 +25,21 @@ get_url_category_whoisxml <- function(url) {
     params <- list("domainName" = url)
     resp <- .make_request_whoisxml(path = "api/v2", params)
     dat <- httr2::resp_body_json(resp)
+    res <- as.data.frame(do.call("rbind", lapply(dat$categories, .flatten_category)))
+    res[["url"]] <- url
+    res[, c(7, 3, 1, 2, 6, 4, 5)]
+}
 
-    cat <- as.data.frame(do.call("rbind", dat$categories))
-    cat[["url"]] <- url
-    res <- cat[, c(4, 3, 1)]
-    res$confident <- TRUE
-    res$id <- names(cat)[3]
-    res$name <- cat$IAB17
-    names(res)[2:3] <- c("label", "score")
-    res
+.flatten_category <- function(cat) {
+    t1 <- as.data.frame(cat$tier1)
+    if (nrow(t1) == 0) {
+        t1 <- data.frame(a = NA, b = NA, c = NA)
+    }
+    t2 <- as.data.frame(cat$tier2)
+    if (nrow(t2) == 0) {
+        t2 <- data.frame(a = NA, b = NA, c = NA)
+    }
+    names(t1) <- c("tier1_score", "tier1_id", "tier1_label")
+    names(t2) <- c("tier2_score", "tier2_id", "tier2_label")
+    as.data.frame(cbind(t1, t2))
 }
