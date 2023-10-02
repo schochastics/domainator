@@ -11,6 +11,7 @@ domainator wraps various APIs and provides lists to classify domains. This inclu
 - [webshrinker](https://webshrinker.com) (commercial)
 - [klazify](https://www.klazify.com/) (commercial)
 - [whoisxmlapi](https://whoisxmlapi.com) (commercial)
+- [linkpreview](https://my.linkpreview.net/) (commercial)
 
 **Lists**
 
@@ -46,6 +47,12 @@ Add KLAZIFY_TOKEN="your-token" to `.Renviron`
 Get the API key from
 [here](https://website-categorization.whoisxmlapi.com/api/documentation/v2/making-requests).  
 Add WHOISXML_TOKEN="your-token" to `.Renviron`
+
+
+### linkpreview
+
+Get the API key from [here](https://my.linkpreview.net/).  
+Add LINKPREVIEW_TOKEN="your-token" to `.Renviron`
 
 ## Example
 
