@@ -2,5 +2,6 @@
 
 export(get_categories_shrinker)
 export(get_url_category_klazify)
+export(get_url_category_linkpreview)
 export(get_url_category_shrinker)
 export(get_url_category_whoisxml)
