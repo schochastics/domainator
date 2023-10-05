@@ -18,7 +18,9 @@ domainator wraps various APIs and provides lists to classify domains. This inclu
 - Stier, S., Mangold, F., Scharkow, M., & Breuer, J. (2022). Post Post-Broadcast
   Democracy? News Exposure in the Age of Online Intermediaries. American
   Political Science Review, 116(2), 768-774.
-
+- https://doi.org/10.5281/zenodo.7651047
+- https://osf.io/5pe27/
+- 
 
 
 `domainator` is part of a series of R packages to analyse webtracking data:
