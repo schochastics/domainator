@@ -22,7 +22,7 @@
 #' }
 #' @export
 get_url_category_linkpreview <- function(url) {
-    params <- list("q" = URLencode(url))
+    params <- list("q" = utils::URLencode(url))
     resp <- .make_request_linkpreview(path = "", params)
     dat <- httr2::resp_body_json(resp)
     data.frame(dat)
