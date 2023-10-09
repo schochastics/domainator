@@ -24,4 +24,4 @@
 #' @references
 #'  Sebastian Stier, Nora Kirkizh, Caterina Froio, Ralph Schroeder. Populist
 #'  attitudes and selective exposure to online news <https://osf.io/5pe27>
-"us_news"
+"online_news"

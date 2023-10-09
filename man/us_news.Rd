@@ -7,24 +7,15 @@
 contains a list of and information on 5,397 US news domains. The domains overwhelmingly represent US-based organizations, but since the list was partly sourced from browsing data, it also includes some international domains visited by US study participants.}
 \format{
 An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 5397 rows and 3 columns.
-
-An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 5397 rows and 3 columns.
 }
 \usage{
-us_news
-
 us_news
 }
 \description{
 Domain list of us news
 contains a list of and information on 5,397 US news domains. The domains overwhelmingly represent US-based organizations, but since the list was partly sourced from browsing data, it also includes some international domains visited by US study participants.
-
-Domain list of online news
 }
 \references{
 Clemm von Hohenberg, B., Menchen-Trevino, E., Casas, A., Wojcieszak, M. (2021). A list of over 5000 US news domains and their social media accounts. https://doi.org/10.5281/zenodo.7651047
-
-Sebastian Stier, Nora Kirkizh, Caterina Froio, Ralph Schroeder. Populist
-attitudes and selective exposure to online news \url{https://osf.io/5pe27}
 }
 \keyword{datasets}
