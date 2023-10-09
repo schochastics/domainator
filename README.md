@@ -1,4 +1,4 @@
-# domainator
+# domainator <img src="man/figures/logo.png" align="right" height="139" alt="" />
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/schochastics/domainator/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/schochastics/domainator/actions/workflows/R-CMD-check.yaml)
@@ -61,5 +61,10 @@ Add WHOISXML_TOKEN="your-token" to `.Renviron`
 Get the API key from [here](https://my.linkpreview.net/).  
 Add LINKPREVIEW_TOKEN="your-token" to `.Renviron`
 
-## Example
+
+## Achknowledgement
+
+The hexsticker was created from  
+- <a href="https://www.flaticon.com/de/kostenlose-icons/url" title="url Icons">Url Icons erstellt von Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/de/kostenlose-icons/einstufung" title="einstufung Icons">Einstufung Icons erstellt von Eucalyp - Flaticon</a>
 
