@@ -26,8 +26,8 @@ domainator wraps various APIs and provides lists to classify domains. This inclu
 `domainator` is part of a series of R packages to analyse webtracking data:
 
 - [webtrackR](https://github.com/schochastics/webtrackR): preprocess raw webtracking data
-- [domainator](https://github.com/schochastics/domainator): classify domains
-- [adaR](https://github.com/schochastics/adaR): parse urls
+- [domainator](https://github.com/gesistsa/domainator): classify domains
+- [adaR](https://github.com/gesistsa/adaR): parse urls
 
 ## Installation
 
