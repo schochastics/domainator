@@ -20,7 +20,6 @@ domainator wraps various APIs and provides lists to classify domains. This inclu
   Political Science Review, 116(2), 768-774.
 - https://doi.org/10.5281/zenodo.7651047
 - https://osf.io/5pe27/
-- 
 
 
 `domainator` is part of a series of R packages to analyse webtracking data:
