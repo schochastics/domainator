@@ -1,0 +1,86 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "domainator" in publications use:'
+type: software
+license: MIT
+title: 'domainator: Classify Domains using Webservices and Lists'
+version: 0.0.0.9000
+abstract: Wraps various APIs and provides lists to classify domains. This includes...
+authors:
+- family-names: Schoch
+  given-names: David
+  email: david@schochastics.net
+  orcid: https://orcid.org/0000-0003-2952-4812
+repository-code: https://github.com/schochastics/domainator
+url: https://github.com/schochastics/domainator
+contact:
+- family-names: Schoch
+  given-names: David
+  email: david@schochastics.net
+  orcid: https://orcid.org/0000-0003-2952-4812
+references:
+- type: software
+  title: base64enc
+  abstract: 'base64enc: Tools for base64 encoding'
+  notes: Imports
+  url: http://www.rforge.net/base64enc
+  repository: https://CRAN.R-project.org/package=base64enc
+  authors:
+  - family-names: Urbanek
+    given-names: Simon
+    email: Simon.Urbanek@r-project.org
+  year: '2024'
+  doi: 10.32614/CRAN.package.base64enc
+- type: software
+  title: utils
+  abstract: 'R: A Language and Environment for Statistical Computing'
+  notes: Imports
+  authors:
+  - name: R Core Team
+  institution:
+    name: R Foundation for Statistical Computing
+    address: Vienna, Austria
+  year: '2024'
+- type: software
+  title: httr2
+  abstract: 'httr2: Perform HTTP Requests and Process the Responses'
+  notes: Imports
+  url: https://httr2.r-lib.org
+  repository: https://CRAN.R-project.org/package=httr2
+  authors:
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2024'
+  doi: 10.32614/CRAN.package.httr2
+- type: software
+  title: rlang
+  abstract: 'rlang: Functions for Base Types and Core R and ''Tidyverse'' Features'
+  notes: Imports
+  url: https://rlang.r-lib.org
+  repository: https://CRAN.R-project.org/package=rlang
+  authors:
+  - family-names: Henry
+    given-names: Lionel
+    email: lionel@posit.co
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@posit.co
+  year: '2024'
+  doi: 10.32614/CRAN.package.rlang
+- type: software
+  title: 'R: A Language and Environment for Statistical Computing'
+  notes: Depends
+  url: https://www.R-project.org/
+  authors:
+  - name: R Core Team
+  institution:
+    name: R Foundation for Statistical Computing
+    address: Vienna, Austria
+  year: '2024'
+  version: '>= 2.10'
+

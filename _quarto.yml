@@ -1,0 +1,5 @@
+project:
+  title: domainator
+  type: default
+  render:
+    - methodshub.qmd
