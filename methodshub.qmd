@@ -37,10 +37,9 @@ install.packages("devtools")
 devtools::install_github("schochastics/domainator")
 ```
 
-<!-- ## Hardware Requirements (Optional) -->
-<!-- - The hardware requirements may be needed in specific cases when a method is known to require more memory/compute power.  -->
-<!-- - The method need to be executed on a specific architecture (GPUs, Hadoop cluster etc.) -->
+## Hardware Requirements
 
+Domainator runs on any machine that can run R.
 
 ## Input Data 
 
@@ -49,6 +48,26 @@ domains to be classified as character vectors
 ## How to Use
 
 Each classification service comes with its own function in the form of `get_url_category_<name_of_service>`
+
+## Technical Details
+
+<!--
+1. The technical details section should proview a process overview, linking to key source code files at every step of the process.
+2. In case a publication provides the details mentioned below, the technical details section should link to this publication using a sentence like "See the [publication](url-of-publication-best-using-doi) for ...". In this case, the mentioned technical details can be omitted from the section.
+3. The technical details section should list all information needed to reproduce the method, including employed other methods and selected parameters.
+4. The input data section should link to external data it uses, preferably using a DOI to a dataset page or to API documentation.
+5. The technical details section should mention how other methods and their parameters were selected and which alternatives were tried.
+6. The technical details section should for employed machine learning models mention on what kind of data they were trained.
+-->
+
+METHOD does XXX by performing the following steps:
+
+1. Reading. The data is read from the input file (`--input-file`) and converted into XXX. (see [method-package/example-source-file.py](method-package/example-source-file.py))
+2. Downloading data. XXX data is fetched from [XXX](https:/example.com/).
+3. XXX. To do XXX, the method uses [XXX](https:/example.com/) with XXX set to XXX (change using `--xxx` or setting `xxx` in the [configuration file](example.conf)). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+4. Writing. The result is written to the output file (`--output-file`). (see [method-package/example-source-file.py](method-package/example-source-file.py))
+
+See the [publication](https:/example.com/) for tested and selected models and parameters, the reasoning behind the model selection, and employed datasets for training.
 
 ## Contact Details
 
